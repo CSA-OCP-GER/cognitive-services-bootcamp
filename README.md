@@ -15,12 +15,12 @@ You can solve these challenges in a programming language of your choice (some ev
 
 ## Challenge 1a (Azure Search)
 
-**Goal:** Deploy an Azure Search instance and index a structured data set 
+:triangular_flag_on_post: **Goal:** Deploy an Azure Search instance and index a structured data set 
 
 1. Deploy an [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-create-service-portal) instance
 1. Index the structured data set from [here](TODO)
 
-**Questions:** 
+:question: **Questions:** 
 
 1. TODO QUESTION 1
 1. TODO QUESTION 2
@@ -30,12 +30,12 @@ You can solve these challenges in a programming language of your choice (some ev
 
 ## Challenge 1b (Azure Cognitive Search)
 
-**Goal:** Index an unstructured data set
+:triangular_flag_on_post: **Goal:** Index an unstructured data set
 
 1. Reuse the Azure Search index from before but add an new index
 1. Index an existing data set coming from `Azure Blob` (data set can be downloaded [here](TODO))
 
-**Questions:** 
+:question: **Questions:** 
 
 1. TODO QUESTION 1
 1. TODO QUESTION 2
@@ -45,23 +45,23 @@ You can solve these challenges in a programming language of your choice (some ev
 
 ## Challenge 2 (Azure Cognitive Services - Vision & Custom Vision)
 
-**Goal:** Leverage OCR to make a hand-written or printed text document in images machine-readable
+:triangular_flag_on_post: **Goal:** Leverage OCR to make a hand-written or printed text document in images machine-readable
 
 In the language of your choice (Python solution is provided), write two small scripts that
 
 1. Convert hand-written text from an image into text - Test data: [1](https://bootcamps.blob.core.windows.net/ml-test-images/ocr_handwritten_1.jpg), [2](https://bootcamps.blob.core.windows.net/ml-test-images/ocr_handwritten_2.jpg)
 1. Convert printed text from an image into text - Test data: [1](https://bootcamps.blob.core.windows.net/ml-test-images/ocr_printed_1.jpg), [2](https://bootcamps.blob.core.windows.net/ml-test-images/ocr_printed_2.jpg)
 
-**Questions:** 
+:question: **Questions:** 
 
 1. How well does the OCR service work with German text? How well with English?
 1. What happens when the image is not oriented correctly?
 
-**Goal:** Detect beer glasses in images
+:triangular_flag_on_post: **Goal:** Detect beer glasses in images
 
 1. Use [Custom Vision](https://customvision.ai) to detect beer glasses in images - [Image Dataset for training and testing](https://bootcamps.blob.core.windows.net/ml-test-images/beer_glasses.zip)
 
-**Questions:** 
+:question: **Questions:** 
 
 1. What could we do to increase the detection performance?
 1. What happens if the beer glasses are really small in the image?
@@ -70,7 +70,7 @@ In the language of your choice (Python solution is provided), write two small sc
 
 ## Challenge 3 (Azure Cognitive Services - Speech)
 
-**Goal:** Leverage Speech-to-Text and Text-to-Speech
+:triangular_flag_on_post: **Goal:** Leverage Speech-to-Text and Text-to-Speech
 
 In the language of your choice (Python solution is provided), write two small scripts or apps that
 
@@ -79,7 +79,7 @@ In the language of your choice (Python solution is provided), write two small sc
 
 Now that we have converted a user's speech input into text, we'll try to determine the intent of that text in the next challenge.
 
-**Questions:** 
+:question: **Questions:** 
 
 1. What happens if you transcribe a long audio file with the speech-to-text API (>15s)?
 1. What happens if you select the wrong language in the text-to-speech API? How could you solve this problem?
@@ -88,7 +88,7 @@ Now that we have converted a user's speech input into text, we'll try to determi
 
 ## Challenge 4 (Azure Cognitive Services - Language)
 
-**Goal:** Make your application understand the meaning of text
+:triangular_flag_on_post: **Goal:** Make your application understand the meaning of text
 
 In the language of your choice (Python solution is provided), write two small scripts or apps that
 
@@ -116,7 +116,7 @@ Utterances:
 (None) Bitte Termin fuer Montag einstellen
 ```
 
-**Questions:** 
+:question: **Questions:** 
 
 1. Why do we need to fill the `None` intent with examples?
 1. What is the `Review endpoint utterances` feature in LUIS?
@@ -125,11 +125,11 @@ Utterances:
 
 # Challenge 5 (Azure Cognitive Services - Search)
 
-**Goal:** Write a script for auto-suggestion of text
+:triangular_flag_on_post: **Goal:** Write a script for auto-suggestion of text
 
 1. Leverage Bing Autosuggest to make predictions on how to continue a half written sentence
 
-**Questions:** 
+:question: **Questions:** 
 
 1. What other services does Bing Search offer?
 1. What does the service in case of a denial-of-service (DoS) attack?
