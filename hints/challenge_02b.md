@@ -1,1 +1,0 @@
-# Hints for Challenge 2b

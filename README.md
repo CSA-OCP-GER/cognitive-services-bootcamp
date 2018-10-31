@@ -1,6 +1,6 @@
 # Welcome!
 
-In this repository you will find the materials and challenges for the "Bilder, Text und Sprache mit Azure AI verstehen und durchsuchbar machen" bootcamp.
+In this repository you will find the materials and challenges for the "Azure AI - Bilder, Text und Sprache mit Azure AI verstehen und durchsuchbar machen" bootcamp.
 
 The associated bootcamp teaches you how to deploy and use the following two Azure technologies:
 
@@ -43,39 +43,30 @@ You can solve these challenges in a programming language of your choice (some ev
 
 :see_no_evil: [Hints for challenge 1b](hints/challenge_01b.md)
 
-## Challenge 2a (Azure Cognitive Services - Vision)
+## Challenge 2 (Azure Cognitive Services - Vision & Custom Vision)
 
-**Goal:** Leverage OCR to make a hand-written or printed text document (image) machine-readable
+**Goal:** Leverage OCR to make a hand-written or printed text document in images machine-readable
 
-In the language of your choice (Python solution is provided), write two small scripts or apps that
+In the language of your choice (Python solution is provided), write two small scripts that
 
-1. Convert hand-written text from an image into text - Test data: [1](TOOD), [2](TOOD)
-1. Convert printed text from an image into text - Test data: [1](TOOD), [2](TOOD)
-
-**Questions:** 
-
-1. TODO QUESTION 1
-1. TODO QUESTION 2
-1. TODO QUESTION 3
-
-:see_no_evil: [Hints for challenge 2a](hints/challenge_02a.md)
-
-## Challenge 2b (Azure Cognitive Services - Custom Vision)
-
-**Goal:** TODO
-
-In the language of your choice (Python solution is provided), write two small scripts or apps that
-
-1. Convert written text from an image into speech (German or English) - Test data: [1](TOOD), [2](TOOD)
-1. Use [Custom Vision](https://customvision.ai) to detect parked cars in drone images
+1. Convert hand-written text from an image into text - Test data: [1](https://bootcamps.blob.core.windows.net/ml-test-images/ocr_handwritten_1.jpg), [2](https://bootcamps.blob.core.windows.net/ml-test-images/ocr_handwritten_2.jpg)
+1. Convert printed text from an image into text - Test data: [1](https://bootcamps.blob.core.windows.net/ml-test-images/ocr_printed_1.jpg), [2](https://bootcamps.blob.core.windows.net/ml-test-images/ocr_printed_2.jpg)
 
 **Questions:** 
 
-1. TODO QUESTION 1
-1. TODO QUESTION 2
-1. TODO QUESTION 3
+1. How well does the OCR service work with German text? How well with English?
+1. What happens when the image is not oriented correctly?
 
-:see_no_evil: [Hints for challenge 2b](hints/challenge_02b.md)
+**Goal:** Detect beer glasses in images
+
+1. Use [Custom Vision](https://customvision.ai) to detect beer glasses in images - [Image Dataset for training and testing](https://bootcamps.blob.core.windows.net/ml-test-images/beer_glasses.zip)
+
+**Questions:** 
+
+1. What could we do to increase the detection performance?
+1. What happens if the beer glasses are really small in the image?
+
+:see_no_evil: [Hints for challenge 2](hints/challenge_02.md)
 
 ## Challenge 3 (Azure Cognitive Services - Speech)
 
