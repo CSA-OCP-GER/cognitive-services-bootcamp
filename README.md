@@ -26,7 +26,7 @@ You can solve these challenges in a programming language of your choice (some ev
 1. TODO QUESTION 2
 1. TODO QUESTION 3
 
-:see_no_evil: [Hints](hints/challenge_01a.md)
+:see_no_evil: [Hints for challenge 1a](hints/challenge_01a.md)
 
 ## Challenge 1b (Azure Cognitive Search)
 
@@ -41,7 +41,7 @@ You can solve these challenges in a programming language of your choice (some ev
 1. TODO QUESTION 2
 1. TODO QUESTION 3
 
-:see_no_evil: [Hints](hints/challenge_01b.md)
+:see_no_evil: [Hints for challenge 1b](hints/challenge_01b.md)
 
 ## Challenge 2a (Azure Cognitive Services - Vision)
 
@@ -58,7 +58,7 @@ In the language of your choice (Python solution is provided), write two small sc
 1. TODO QUESTION 2
 1. TODO QUESTION 3
 
-:see_no_evil: [Hints](hints/challenge_02a.md)
+:see_no_evil: [Hints for challenge 2a](hints/challenge_02a.md)
 
 ## Challenge 2b (Azure Cognitive Services - Custom Vision)
 
@@ -75,7 +75,7 @@ In the language of your choice (Python solution is provided), write two small sc
 1. TODO QUESTION 2
 1. TODO QUESTION 3
 
-:see_no_evil: [Hints](hints/challenge_02b.md)
+:see_no_evil: [Hints for challenge 2b](hints/challenge_02b.md)
 
 ## Challenge 3 (Azure Cognitive Services - Speech)
 
@@ -86,13 +86,14 @@ In the language of your choice (Python solution is provided), write two small sc
 1. Convert written text into speech (German or English)
 1. Convert speech into written text (German or English)
 
+Now that we have converted a user's speech input into text, we'll try to determine the intent of that text in the next challenge.
+
 **Questions:** 
 
-1. TODO QUESTION 1
-1. TODO QUESTION 2
-1. TODO QUESTION 3
+1. What happens if you transcribe a long audio file with the speech-to-text API (>15s)?
+1. What happens if you select the wrong language in the text-to-speech API? How could you solve this problem?
 
-:see_no_evil: [Hints](hints/challenge_03.md)
+:see_no_evil: [Hints for challenge 3](hints/challenge_03.md)
 
 ## Challenge 4 (Azure Cognitive Services - Language)
 
@@ -109,7 +110,7 @@ Data:
 TODO
 ```
 
-[Hints](hints/challenge_04.md)
+[Hints for challenge 4](hints/challenge_04.md)
 
 # Challenge 5 (Azure Cognitive Services - Search)
 
@@ -123,4 +124,4 @@ TODO
 1. TODO QUESTION 2
 1. TODO QUESTION 3
 
-[Hints](hints/challenge_05.md)
+[Hints for challenge 5](hints/challenge_05.md)
