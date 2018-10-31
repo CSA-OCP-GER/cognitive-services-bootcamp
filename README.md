@@ -140,8 +140,7 @@ Utterances:
 
 **Questions:** 
 
-1. TODO QUESTION 1
-1. TODO QUESTION 2
-1. TODO QUESTION 3
+1. What other services does Bing Search offer?
+1. What does the service in case of a denial-of-service (DoS) attack?
 
 :see_no_evil: [Hints for challenge 5](hints/challenge_05.md)
