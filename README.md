@@ -101,16 +101,36 @@ Now that we have converted a user's speech input into text, we'll try to determi
 
 In the language of your choice (Python solution is provided), write two small scripts or apps that
 
-1. Translate the input text into English or German
-1. Detect the intent and entities in text (German or English)
+1. Translate the input text into English or German (using the Text Translator API)
+1. Detect the intent and entities in text (German or English) - see examples below (using [luis.ai](https://luis.ai))
 
-Data:
+Let's use an example where we want to detect a Pizza order from the user. The user should also be able to cancel the order.
+
+LUIS example data:
 
 ```
-TODO
+2 Intents: "CreateOrder", "CancelOrder"
+
+Utterances:
+
+(CreateOrder) Ich moechte eine Pizza Salami bestellen 
+(CreateOrder) Vier Pizza Hawaii bitte 
+
+(CancelOrder) Bitte Bestellung 123 stornieren
+(CancelOrder) Cancel bitte Bestellung 42
+(CancelOrder) Ich will Order 933 nicht mehr
+
+(None) Wieviel Uhr ist heute?
+(None) Wie ist das Wetter in Berlin?
+(None) Bitte Termin fuer Montag einstellen
 ```
 
-[Hints for challenge 4](hints/challenge_04.md)
+**Questions:** 
+
+1. Why do we need to fill the `None` intent with examples?
+1. What is the `Review endpoint utterances` feature in LUIS?
+
+:see_no_evil: [Hints for challenge 4](hints/challenge_04.md)
 
 # Challenge 5 (Azure Cognitive Services - Search)
 
@@ -124,4 +144,4 @@ TODO
 1. TODO QUESTION 2
 1. TODO QUESTION 3
 
-[Hints for challenge 5](hints/challenge_05.md)
+:see_no_evil: [Hints for challenge 5](hints/challenge_05.md)

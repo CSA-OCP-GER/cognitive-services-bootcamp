@@ -1,6 +1,5 @@
 # Hints for Challenge 3
 
-
 Create a new `Python 3.6 Notebook` in [Azure Notebooks](https://notebooks.azure.com/). Next, create a `Speech` API Key in the Azure Portal:
 
 ![alt text](../images/speech_api_service.png "Speech API Service")
@@ -99,6 +98,6 @@ As of October 2018, the speech-to-text API expects audio with the following spec
 * 16-bit WAV format with PCM or OGG format with OPUS
 * Single channel (mono) at 16 KHz
 
-See [here](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/rest-apis#speech-to-text)
+More details, see [here](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/rest-apis#speech-to-text).
 
 Now that we've converted the user's speech into text, we can detect the intent of the text in the next challenge!
