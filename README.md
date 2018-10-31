@@ -1,51 +1,126 @@
-# Cognitive Services & Azure Search Bootcamp
+# Welcome!
 
 In this repository you will find the materials and challenges for the "Bilder, Text und Sprache mit Azure AI verstehen und durchsuchbar machen" bootcamp.
 
 The associated bootcamp teaches you how to deploy and use the following two Azure technologies:
 
-* Azure Cognitive Services
-* Azure Search and Azure Cognitive Search
+* [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/)
+* [Azure Search](https://azure.microsoft.com/en-us/services/search/) (including Cognitive Search)
 
-The bootcamp is organized as four challenges, each one containing a high-level description and a few hints in case you get stuck.
+The bootcamp is organized as five independent challenges, each one containing a high-level description and a few hints in case you get stuck.
 
 # Challenges
 
-## Challenge 1
+You can solve these challenges in a programming language of your choice (some even in `curl` :hammer:). For sake of convenience, we are providing hints in `Python`, which you can easily (and for free) run in [Azure Notebooks](https://notebooks.azure.com). SDK Support for `C#` or `.NET Core` is available for most challenges. You can find code examples in the Azure documentation for the associated services.
 
-**Goal:** Deploy an Azure Search instance and index an unstructured data set 
+## Challenge 1a (Azure Search)
+
+**Goal:** Deploy an Azure Search instance and index a structured data set 
 
 1. Deploy an [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-create-service-portal) instance
-1. Index an existing data set coming from `Azure Blob`
+1. Index the structured data set from [here](TODO)
 
-The address of the dataset will be provided during the bootcamp.
+**Questions:** 
 
-[Hints](hints/challenge_01.md)
+1. TODO QUESTION 1
+1. TODO QUESTION 2
+1. TODO QUESTION 3
 
-## Challenge 2
+:see_no_evil: [Hints](hints/challenge_01a.md)
 
-**Goal:** Leverage Speech-to-Text to perform interactive, speech-driven queries
+## Challenge 1b (Azure Cognitive Search)
 
-1. [Find all relevant documents](https://docs.microsoft.com/en-us/azure/search/search-query-overview) for a given search term
-1. Display the results
-1. Leverage [Azure Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/) to perform speech-based queries
+**Goal:** Index an unstructured data set
 
-[Hints](hints/challenge_02.md)
+1. Reuse the Azure Search index from before but add an new index
+1. Index an existing data set coming from `Azure Blob` (data set can be downloaded [here](TODO))
 
-## Challenge 3
+**Questions:** 
 
-**Goal:** Use text-to-speech to read out the best matching result 
+1. TODO QUESTION 1
+1. TODO QUESTION 2
+1. TODO QUESTION 3
 
-1. Add [Text-to-Speech](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/) capabilities to your application 
+:see_no_evil: [Hints](hints/challenge_01b.md)
 
-[Hints](hints/challenge_03.md)
+## Challenge 2a (Azure Cognitive Services - Vision)
 
-## Challenge 4
+**Goal:** Leverage OCR to make a hand-written or printed text document (image) machine-readable
 
-**Goal:** Leverage OCR to make printed and handwritten documents searchable   
+In the language of your choice (Python solution is provided), write two small scripts or apps that
 
-1. Use the [Computer Vision API](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-extracting-text-ocr) to recognize text in the provided data
+1. Convert hand-written text from an image into text - Test data: [1](TOOD), [2](TOOD)
+1. Convert printed text from an image into text - Test data: [1](TOOD), [2](TOOD)
 
-The address of the dataset will be provided during the bootcamp.
+**Questions:** 
+
+1. TODO QUESTION 1
+1. TODO QUESTION 2
+1. TODO QUESTION 3
+
+:see_no_evil: [Hints](hints/challenge_02a.md)
+
+## Challenge 2b (Azure Cognitive Services - Custom Vision)
+
+**Goal:** TODO
+
+In the language of your choice (Python solution is provided), write two small scripts or apps that
+
+1. Convert written text from an image into speech (German or English) - Test data: [1](TOOD), [2](TOOD)
+1. Use [Custom Vision](https://customvision.ai) to detect parked cars in drone images
+
+**Questions:** 
+
+1. TODO QUESTION 1
+1. TODO QUESTION 2
+1. TODO QUESTION 3
+
+:see_no_evil: [Hints](hints/challenge_02b.md)
+
+## Challenge 3 (Azure Cognitive Services - Speech)
+
+**Goal:** Leverage Speech-to-Text and Text-to-Speech
+
+In the language of your choice (Python solution is provided), write two small scripts or apps that
+
+1. Convert written text into speech (German or English)
+1. Convert speech into written text (German or English)
+
+**Questions:** 
+
+1. TODO QUESTION 1
+1. TODO QUESTION 2
+1. TODO QUESTION 3
+
+:see_no_evil: [Hints](hints/challenge_03.md)
+
+## Challenge 4 (Azure Cognitive Services - Language)
+
+**Goal:** Make your application understand the meaning of text
+
+In the language of your choice (Python solution is provided), write two small scripts or apps that
+
+1. Translate the input text into English or German
+1. Detect the intent and entities in text (German or English)
+
+Data:
+
+```
+TODO
+```
 
 [Hints](hints/challenge_04.md)
+
+# Challenge 5 (Azure Cognitive Services - Search)
+
+**Goal:** Write a script for auto-suggestion of text
+
+1. Leverage Bing Autosuggest to make predictions on how to continue a half written sentence
+
+**Questions:** 
+
+1. TODO QUESTION 1
+1. TODO QUESTION 2
+1. TODO QUESTION 3
+
+[Hints](hints/challenge_05.md)

@@ -1,1 +1,1 @@
-# Hints for Challenge 1
+# Hints for Challenge 3
