@@ -28,7 +28,7 @@ We'll skip `Cognitive Search` for this example (we'll get back to it soon). Azur
 
 ![alt text](../images/azure_search_create_index.png "Azure Search Index Setting")
 
-Question: Does it makes sense to have any of the fields `Filterable`, `Sortable`, or `Facetable`?
+:question: Question: Does it make sense to have any of the fields `Filterable`, `Sortable`, or `Facetable`?
 
 Lastly, we need to give our Indexer a name and also set the schedule. In our case, we'll only run it once, but in a real world scenario, we might want to keep it running to index new, incoming data:
 
@@ -40,4 +40,37 @@ After a minute or two, our Indexer will have indexed all the PDFs and we should 
 
 ## Querying Content
 
+Azure Search now indexed all our PDFs via the `pdf-blob-indexer` into the `pdf-index` index. Ideally, we would use the REST API of Azure Search to perform sophisticated queries, but in our case, we can use the `Azure Search Explorer`:
 
+![alt text](../images/azure_search_explorer.png "Azure Search Explorer")
+
+[Querying data](https://docs.microsoft.com/en-us/azure/search/search-query-overview) in Azure Search can get quite sophisticated, but for our example here, we can just put in a simple query:
+
+![alt text](../images/azure_search_explorer_example.png "Azure Search Query Example")
+
+Using double-quotes `"..."` will search for the whole string, rather than each substring. If we want to make a search term mandatory, we need to prefix a `+`. There is a billion more things we can do, but for now, we'll see that we get one document back, as one only one PDF contained the term `Content Moderator`:
+
+```json
+{
+    "@odata.context": "https://bootcampsearch42.search.windows.net/indexes('pdf-index')/$metadata#docs",
+    "value": [
+        {
+            "@search.score": 0.16848493,
+            "content": "\n05/11/2018 What are Azure Cognitive Services? | Microsoft Docs\n\nhttps://docs.microsoft.com/en-us/azure/cognitive-services/welcome 1/4\n\nAzure Cognitive Services are APIs, SDKs, and services available to help developers build intelligent\n\napplications ...",
+            "metadata_storage_path": "aHR0cHM6Ly9ib290Y2FtcHMuYmxvYi5jb3JlLndpbmRvd3MubmV0L2RhdGFzZXRzL1doYXQlMjBhcmUlMjBBenVyZSUyMENvZ25pdGl2ZSUyMFNlcnZpY2VzLnBkZg2"
+        }
+    ]
+}
+```
+
+If we want to figure out the original file, we can look at: `metadata_storage_path`. Since it is base64-encoded, we need to decode it, either via command line or by using e.g., [www.base64decode.org](https://www.base64decode.org/):
+
+```
+https://bootcamps.blob.core.windows.net/datasets/What%20are%20Azure%20Cognitive%20Services.pdf
+```
+
+Perfect, now we know which document contained the term `Content Moderator`.
+
+## Indexing unstructured content (e.g. images, audio, etc.)
+
+TODO
