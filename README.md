@@ -28,14 +28,12 @@ You can solve these challenges in a programming language of your choice (some ev
 
 :triangular_flag_on_post: **Goal:** Index an unstructured data set with Cognitive Search
 
-1. Add another index to the Azure Search instance
-1. Index an existing data set coming from `Azure Blob` (data set can be downloaded [here](TODO))
+1. Add another index to the Azure Search instance, but this time enable Cognitive Search
+1. Index an existing data set coming from `Azure Blob` (data set can be downloaded [here](data/search-dataset-cognitive.zip)) - which document contains the term `Pin to Dashboard`?
 
 :question: **Questions:** 
 
-1. TODO QUESTION 1
-1. TODO QUESTION 2
-1. TODO QUESTION 3
+1. Given a Machine Learning model that can detect beer glasses images (we'll do that in the next challenge) - how could be leverage this in Azure Search?
 
 :see_no_evil: [Hints for challenge 1](hints/challenge_01.md)
 
