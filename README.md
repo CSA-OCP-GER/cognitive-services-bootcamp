@@ -11,28 +11,24 @@ The bootcamp is organized as five independent challenges, each one containing a 
 
 # Challenges
 
-You can solve these challenges in a programming language of your choice (some even in `curl` :hammer:). For sake of convenience, we are providing hints in `Python`, which you can easily (and for free) run in [Azure Notebooks](https://notebooks.azure.com). SDK Support for `C#` or `.NET Core` is available for most challenges. You can find code examples in the Azure documentation for the associated services.
+You can solve these challenges in a programming language of your choice (some even in `curl` :hammer:). For sake of convenience, we are providing hints in `Python`, which you can easily (and for free) run in [Azure Notebooks](https://notebooks.azure.com). SDK Support for `C#` or `.NET Core` is available for most challenges. Especially Azure Search features an easy-to-use `.NET SDK`. You can find code examples in the Azure documentation for the associated services.
 
-## Challenge 1a (Azure Search)
+## Challenge 1 (Azure Search & Cognitive Search)
 
-:triangular_flag_on_post: **Goal:** Deploy an Azure Search instance and index a structured data set 
+:triangular_flag_on_post: **Goal:** Deploy an Azure Search instance and index a PDF-based data set 
 
 1. Deploy an [Azure Search](https://docs.microsoft.com/en-us/azure/search/search-create-service-portal) instance
-1. Index the structured data set from [here](TODO)
+1. Index the unstructured PDF data set from [here](data/search-dataset-pdf.zip) - which document contains the term `Content Moderator`?
 
 :question: **Questions:** 
 
-1. TODO QUESTION 1
-1. TODO QUESTION 2
-1. TODO QUESTION 3
+1. What is an Index? What is an Indexer? What is a Data Source? How do they relate to each other?
+1. Why would you want to use replicas? Why would you want more partitions?
+1. How would you index `json` documents sitting in Azure Blob?
 
-:see_no_evil: [Hints for challenge 1a](hints/challenge_01a.md)
+:triangular_flag_on_post: **Goal:** Index an unstructured data set with Cognitive Search
 
-## Challenge 1b (Azure Cognitive Search)
-
-:triangular_flag_on_post: **Goal:** Index an unstructured data set
-
-1. Reuse the Azure Search index from before but add an new index
+1. Add another index to the Azure Search instance
 1. Index an existing data set coming from `Azure Blob` (data set can be downloaded [here](TODO))
 
 :question: **Questions:** 
@@ -41,7 +37,7 @@ You can solve these challenges in a programming language of your choice (some ev
 1. TODO QUESTION 2
 1. TODO QUESTION 3
 
-:see_no_evil: [Hints for challenge 1b](hints/challenge_01b.md)
+:see_no_evil: [Hints for challenge 1](hints/challenge_01.md)
 
 ## Challenge 2 (Azure Cognitive Services - Vision & Custom Vision)
 

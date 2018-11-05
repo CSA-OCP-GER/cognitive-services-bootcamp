@@ -4,7 +4,7 @@ Create a new `Python 3.6 Notebook` in [Azure Notebooks](https://notebooks.azure.
 
 ## Translate Text
 
- First, create a `Translator Text` API Key in the Azure Portal:
+First, create a `Translator Text` API Key in the Azure Portal:
 
 ![alt text](../images/translator_api.png "Translator Service")
 
