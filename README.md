@@ -33,7 +33,7 @@ You can solve these challenges in a programming language of your choice (some ev
 
 :question: **Questions:** 
 
-1. Given a Machine Learning model that can detect beer glasses images (we'll do that in the next challenge) - how could be leverage this in Azure Search?
+1. Let's assume we've built a Machine Learning model that can detect beer glasses images (we'll do that in the next challenge) - how could we leverage this model directly in Azure Search for tagging our data?
 
 :see_no_evil: [Hints for challenge 1](hints/challenge_01.md)
 
@@ -71,12 +71,12 @@ In the language of your choice (Python solution is provided), write two small sc
 1. Convert written text into speech (German or English)
 1. Convert speech into written text (German or English)
 
-Now that we have converted a user's speech input into text, we'll try to determine the intent of that text in the next challenge.
-
 :question: **Questions:** 
 
 1. What happens if you transcribe a long audio file with the speech-to-text API (>15s)?
 1. What happens if you select the wrong language in the text-to-speech API? How could you solve this problem?
+
+Now that we have converted a user's speech input into text, we'll try to determine the intent of that text in the next challenge.
 
 :see_no_evil: [Hints for challenge 3](hints/challenge_03.md)
 
@@ -86,10 +86,10 @@ Now that we have converted a user's speech input into text, we'll try to determi
 
 In the language of your choice (Python solution is provided), write two small scripts or apps that
 
-1. Translate the input text into English or German (using the Text Translator API)
-1. Detect the intent and entities in text (German or English) - see examples below (using [luis.ai](https://luis.ai))
+1. Translate the input text into German (using the Text Translator API)
+1. Detect the intent and entities of the text (German) - see examples below (using [https://luis.ai](https://luis.ai))
 
-Let's use an example where we want to detect a Pizza order from the user. The user should also be able to cancel the order.
+Let's use an example where we want to detect a Pizza order from the user. We also want to detect if the user wants to cancel an order.
 
 LUIS example data:
 
@@ -121,11 +121,11 @@ Utterances:
 
 :triangular_flag_on_post: **Goal:** Write a script for auto-suggestion of text
 
-1. Leverage Bing Autosuggest to make predictions on how to continue a half written sentence
+1. Leverage Bing Autosuggest to make predictions on how a user might wants to continue an half-written sentence
 
 :question: **Questions:** 
 
 1. What other services does Bing Search offer?
-1. What does the service in case of a denial-of-service (DoS) attack?
+1. How does the service react in case of a denial-of-service (DoS) attack?
 
 :see_no_evil: [Hints for challenge 5](hints/challenge_05.md)
