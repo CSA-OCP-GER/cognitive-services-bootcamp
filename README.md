@@ -129,3 +129,8 @@ Utterances:
 1. How does the service react in case of a denial-of-service (DoS) attack?
 
 :see_no_evil: [Hints for challenge 5](hints/challenge_05.md)
+
+
+#Authors
+
+[@clemenssiebler](https://twitter.com/clemenssiebler), Cloud Solution Architect for Azure at Microsoft
