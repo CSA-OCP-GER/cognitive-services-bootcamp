@@ -58,7 +58,7 @@ Next, we can try to detect `Entities` in our text inputs. For that, goto Entitie
 
 As we can see, LUIS supports a range of entity types, like regex, lists, etc.
 
-Finally, we can annotate our training examples. Numbers will automatically be detected (as it is a prebuilt type), but we need to tell LUIS, what `PizzaOrder` is. This is a bit tricky, first click the beginning of the composite entity (= the detected number), tag it as `PizzaOrder`, then directly tag the last part of the entity (= the pizza type) also as `PizzaOrder`. Then tag all pizza types inside the `PizzaOrder` as `Pizza Type`. The final tagging should look something like this (make sure the green line covers the whole phrase):
+Finally, we can annotate our training examples. Numbers will automatically be detected (as it is a prebuilt type), but we need to tell LUIS, what `PizzaOrder` is. This is a bit tricky, first click the beginning of the composite entity (= the detected number) and select `Wrap as Composite Entity`, then directly click the last part of the entity (= the pizza type) and then select `PizzaOrder`. Then tag all pizza types inside the `PizzaOrder` as `Pizza Type`. The final tagging should look something like this (make sure the green line covers the whole phrase):
 
 ![alt text](../images/composite_types_luis.png "LUIS Intents")
 
