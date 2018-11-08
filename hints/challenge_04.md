@@ -33,7 +33,7 @@ As we can see, we can translate multiple sentences within one API call. The serv
 
 For retrieving the intent of the text, we'll be using the Language Understanding service in Azure, called LUIS. In many cases, LUIS is used to power chatbots, but it can also be used for "standalone" processing of text. We could even use it for e.g., automatically analyzing emails and categorizing them, or figuring out what products and amounts are on an invoice.
 
-Head to [`luis.ai`](https://luis.ai) and create a new LUIS app. As a base language, fell free to either choose German or English (English supports a few more features as of October 2018).
+Head to [`eu.luis.ai`](https://eu.luis.ai) and create a new LUIS app. As a base language, fell free to either choose German or English (English supports a few more features as of October 2018).
 
 Quick explanation on how LUIS works:
 
@@ -65,7 +65,7 @@ Finally, we can annotate our training examples. Numbers will automatically be de
 Hit `Train` again to give it a final training. Lastly, hit `Publish` and publish it to `Production`. Review the endpoints and copy the endpoint URL (can be found under `Manage` --> `Keys and Endpoints`). It should look something like this:
 
 ```
-https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxx?subscription-key=xxxxxxx&timezoneOffset=-360&q=
+https://westeurope.api.cognitive.microsoft.com/luis/v2.0/apps/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxx?subscription-key=xxxxxxx&timezoneOffset=-360&q=
 ```
 
 With a bit of Python, we can now get the intent through the API:
@@ -74,7 +74,7 @@ With a bit of Python, we can now get the intent through the API:
 import requests, json
 
 # Paste your Endpoint URL here
-url = "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxx?subscription-key=xxxxxxx&timezoneOffset=-360&q="
+url = "https://westeurope.api.cognitive.microsoft.com/luis/v2.0/apps/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxx?subscription-key=xxxxxxx&timezoneOffset=-360&q="
 
 query = "ich hätte gerne 9 pizza calzone"
 

@@ -87,7 +87,7 @@ Now that we have converted a user's speech input into text, we'll try to determi
 In the language of your choice (Python solution is provided), write two small scripts or apps that
 
 1. Translate the input text into German (using the Text Translator API)
-1. Detect the intent and entities of the text (German) - see examples below (using [https://luis.ai](https://luis.ai))
+1. Detect the intent and entities of the text (German) - see examples below (using [https://eu.luis.ai](https://eu.luis.ai))
 
 Let's use an example where we want to detect a Pizza order from the user. We also want to detect if the user wants to cancel an order.
 
@@ -129,7 +129,6 @@ Utterances:
 1. How does the service react in case of a denial-of-service (DoS) attack?
 
 :see_no_evil: [Hints for challenge 5](hints/challenge_05.md)
-
 
 # Authors
 
