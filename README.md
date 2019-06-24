@@ -71,6 +71,8 @@ In the language of your choice (Python solution is provided), write two small sc
 1. Convert written text into speech (German or English)
 1. Convert speech into written text (German or English)
 
+You can use can use this file: [`data/test.wav`](data/test.wav) (English).
+
 :question: **Questions:** 
 
 1. What happens if you transcribe a long audio file with the speech-to-text API (>15s)?
@@ -110,6 +112,21 @@ Utterances:
 (None) Bitte Termin fuer Montag einstellen
 ```
 
+## Challenge 5 (Azure Cognitive Services - Text Analytics)
+
+:triangular_flag_on_post: **Goal:** Leverage Text Analytics API for extracting language, sentiment, key phrases, and entities from text
+
+In the language of your choice (Python solution is provided), write a small scripts that
+
+1. Extracts sentiment, key phrases and entities from unstructured text using the [Text Analytics API](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/)
+
+:question: **Questions:** 
+
+1. What happens if we do not pass in the `language` parameter while getting the sentiment? 
+
+:see_no_evil: [Hints](hints/challenge_05.md)
+
+
 :question: **Questions:** 
 
 1. Why do we need to fill the `None` intent with examples?
@@ -117,7 +134,7 @@ Utterances:
 
 :see_no_evil: [Hints for challenge 4](hints/challenge_04.md)
 
-# Challenge 5 (Azure Cognitive Services - Search)
+# Challenge 6 (Azure Cognitive Services - Search)
 
 :triangular_flag_on_post: **Goal:** Write a script for auto-suggestion of text
 
@@ -128,7 +145,7 @@ Utterances:
 1. What other services does Bing Search offer?
 1. How does the service react in case of a denial-of-service (DoS) attack?
 
-:see_no_evil: [Hints for challenge 5](hints/challenge_05.md)
+:see_no_evil: [Hints for challenge 6](hints/challenge_06.md)
 
 # Authors
 
