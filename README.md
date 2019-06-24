@@ -9,12 +9,15 @@ The associated bootcamp teaches you how to deploy and use the following two Azur
 
 The bootcamp is organized as six independent challenges, each one containing a high-level description and a few hints in case you get stuck. We'll touch on the following services:
 
-* [Azure Search + Cognitive Search](https://azure.microsoft.com/en-us/services/search/) (Challenge 01)
-* Azure Cognitive Services - [Computer Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/) and [Custom Vision Service](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/) (Challenge 02)
-* Azure Cognitive Services - [Speech Services](https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/) (Challenge 03)
-* Azure Cognitive Services - [Language Understanding](https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/) (Challenge 04)
-* Azure Cognitive Services - [Text Analytics API](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/) (Challenge 05)
-* Azure Cognitive Services - [Search API](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/) (Challenge 06)
+
+|Service|Where?|
+|---|---|
+|[Azure Search + Cognitive Search](https://azure.microsoft.com/en-us/services/search/)|Challenge 01|
+|Azure Cognitive Services - [Computer Vision API](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/) and [Custom Vision Service](https://azure.microsoft.com/en-us/services/cognitive-services/custom-vision-service/)|Challenge 02|
+|Azure Cognitive Services - [Speech Services](https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/)|Challenge 03|
+|Azure Cognitive Services - [Language Understanding](https://azure.microsoft.com/en-us/services/cognitive-services/language-understanding-intelligent-service/)|Challenge 04|
+|Azure Cognitive Services - [Text Analytics API](https://azure.microsoft.com/en-us/services/cognitive-services/text-analytics/)|Challenge 05|
+|Azure Cognitive Services - [Search API](https://azure.microsoft.com/en-us/services/cognitive-services/directory/search/)|Challenge 06|
 
 # Challenges
 
