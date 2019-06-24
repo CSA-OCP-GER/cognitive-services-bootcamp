@@ -126,7 +126,6 @@ In the language of your choice (Python solution is provided), write a small scri
 
 :see_no_evil: [Hints](hints/challenge_05.md)
 
-
 :question: **Questions:** 
 
 1. Why do we need to fill the `None` intent with examples?
@@ -134,7 +133,7 @@ In the language of your choice (Python solution is provided), write a small scri
 
 :see_no_evil: [Hints for challenge 4](hints/challenge_04.md)
 
-# Challenge 6 (Azure Cognitive Services - Search)
+## Challenge 6 (Azure Cognitive Services - Search)
 
 :triangular_flag_on_post: **Goal:** Write a script for auto-suggestion of text
 
